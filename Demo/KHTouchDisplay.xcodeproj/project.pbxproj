@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		956DDDD018888E8F00319DBE /* black_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 956DDDCC18888E8F00319DBE /* black_circle.png */; };
+		956DDDD118888E8F00319DBE /* grey_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 956DDDCD18888E8F00319DBE /* grey_circle.png */; };
+		956DE7901A97CF8D00933364 /* red_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 956DE78F1A97CF8D00933364 /* red_circle.png */; };
+		956DE7921A97D0D200933364 /* blue_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 956DE7911A97D0D200933364 /* blue_circle.png */; };
+		9599773A1A39E4DA00FBF700 /* UITouch+KHTouchDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 959977391A39E4DA00FBF700 /* UITouch+KHTouchDisplay.m */; };
+		95CFA75218386647003CDE55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CFA75118386647003CDE55 /* Foundation.framework */; };
+		95CFA75618386647003CDE55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CFA75518386647003CDE55 /* UIKit.framework */; };
+		95CFA75C18386647003CDE55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95CFA75A18386647003CDE55 /* InfoPlist.strings */; };
+		95CFA75E18386647003CDE55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CFA75D18386647003CDE55 /* main.m */; };
+		95CFA76218386647003CDE55 /* KHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CFA76118386647003CDE55 /* KHAppDelegate.m */; };
+		95CFA76518386647003CDE55 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CFA76318386647003CDE55 /* Main_iPhone.storyboard */; };
+		95CFA76D18386647003CDE55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CFA76C18386647003CDE55 /* Images.xcassets */; };
+		95CFA77518386647003CDE55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CFA75118386647003CDE55 /* Foundation.framework */; };
+		95CFA77618386647003CDE55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CFA75518386647003CDE55 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95CFA77718386647003CDE55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95CFA74618386646003CDE55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95CFA74D18386646003CDE55;
+			remoteInfo = KHTouchDisplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		956DDDCC18888E8F00319DBE /* black_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_circle.png; sourceTree = "<group>"; };
+		956DDDCD18888E8F00319DBE /* grey_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_circle.png; sourceTree = "<group>"; };
+		956DE78F1A97CF8D00933364 /* red_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_circle.png; sourceTree = "<group>"; };
+		956DE7911A97D0D200933364 /* blue_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_circle.png; sourceTree = "<group>"; };
+		959977381A39E4DA00FBF700 /* UITouch+KHTouchDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+KHTouchDisplay.h"; sourceTree = "<group>"; };
+		959977391A39E4DA00FBF700 /* UITouch+KHTouchDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+KHTouchDisplay.m"; sourceTree = "<group>"; };
+		95CFA74E18386646003CDE55 /* KHTouchDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHTouchDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CFA75118386647003CDE55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95CFA75518386647003CDE55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95CFA75918386647003CDE55 /* KHTouchDisplay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KHTouchDisplay-Info.plist"; sourceTree = "<group>"; };
+		95CFA75B18386647003CDE55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95CFA75D18386647003CDE55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95CFA75F18386647003CDE55 /* KHTouchDisplay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KHTouchDisplay-Prefix.pch"; sourceTree = "<group>"; };
+		95CFA76018386647003CDE55 /* KHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAppDelegate.h; sourceTree = "<group>"; };
+		95CFA76118386647003CDE55 /* KHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHAppDelegate.m; sourceTree = "<group>"; };
+		95CFA76418386647003CDE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		95CFA76C18386647003CDE55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95CFA77218386647003CDE55 /* KHTouchDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHTouchDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95CFA74B18386646003CDE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CFA75618386647003CDE55 /* UIKit.framework in Frameworks */,
+				95CFA75218386647003CDE55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CFA76F18386647003CDE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CFA77618386647003CDE55 /* UIKit.framework in Frameworks */,
+				95CFA77518386647003CDE55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956DDDBE1888748600319DBE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				959977381A39E4DA00FBF700 /* UITouch+KHTouchDisplay.h */,
+				959977391A39E4DA00FBF700 /* UITouch+KHTouchDisplay.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		956DDDCB18888E7200319DBE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				956DE7911A97D0D200933364 /* blue_circle.png */,
+				956DE78F1A97CF8D00933364 /* red_circle.png */,
+				956DDDCC18888E8F00319DBE /* black_circle.png */,
+				956DDDCD18888E8F00319DBE /* grey_circle.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		95CFA74518386646003CDE55 = {
+			isa = PBXGroup;
+			children = (
+				95CFA75718386647003CDE55 /* KHTouchDisplay */,
+				95CFA75018386646003CDE55 /* Frameworks */,
+				95CFA74F18386646003CDE55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95CFA74F18386646003CDE55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CFA74E18386646003CDE55 /* KHTouchDisplay.app */,
+				95CFA77218386647003CDE55 /* KHTouchDisplayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95CFA75018386646003CDE55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95CFA75118386647003CDE55 /* Foundation.framework */,
+				95CFA75518386647003CDE55 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95CFA75718386647003CDE55 /* KHTouchDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				956DDDCB18888E7200319DBE /* images */,
+				956DDDBE1888748600319DBE /* Categories */,
+				95CFA76018386647003CDE55 /* KHAppDelegate.h */,
+				95CFA76118386647003CDE55 /* KHAppDelegate.m */,
+				95CFA76318386647003CDE55 /* Main_iPhone.storyboard */,
+				95CFA76C18386647003CDE55 /* Images.xcassets */,
+				95CFA75818386647003CDE55 /* Supporting Files */,
+			);
+			path = KHTouchDisplay;
+			sourceTree = "<group>";
+		};
+		95CFA75818386647003CDE55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95CFA75918386647003CDE55 /* KHTouchDisplay-Info.plist */,
+				95CFA75A18386647003CDE55 /* InfoPlist.strings */,
+				95CFA75D18386647003CDE55 /* main.m */,
+				95CFA75F18386647003CDE55 /* KHTouchDisplay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95CFA74D18386646003CDE55 /* KHTouchDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CFA78318386647003CDE55 /* Build configuration list for PBXNativeTarget "KHTouchDisplay" */;
+			buildPhases = (
+				95CFA74A18386646003CDE55 /* Sources */,
+				95CFA74B18386646003CDE55 /* Frameworks */,
+				95CFA74C18386646003CDE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KHTouchDisplay;
+			productName = KHTouchDisplay;
+			productReference = 95CFA74E18386646003CDE55 /* KHTouchDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95CFA77118386647003CDE55 /* KHTouchDisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CFA78618386647003CDE55 /* Build configuration list for PBXNativeTarget "KHTouchDisplayTests" */;
+			buildPhases = (
+				95CFA76E18386647003CDE55 /* Sources */,
+				95CFA76F18386647003CDE55 /* Frameworks */,
+				95CFA77018386647003CDE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95CFA77818386647003CDE55 /* PBXTargetDependency */,
+			);
+			name = KHTouchDisplayTests;
+			productName = KHTouchDisplayTests;
+			productReference = 95CFA77218386647003CDE55 /* KHTouchDisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95CFA74618386646003CDE55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KH;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Killian HUYGHE";
+				TargetAttributes = {
+					95CFA77118386647003CDE55 = {
+						TestTargetID = 95CFA74D18386646003CDE55;
+					};
+				};
+			};
+			buildConfigurationList = 95CFA74918386646003CDE55 /* Build configuration list for PBXProject "KHTouchDisplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95CFA74518386646003CDE55;
+			productRefGroup = 95CFA74F18386646003CDE55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95CFA74D18386646003CDE55 /* KHTouchDisplay */,
+				95CFA77118386647003CDE55 /* KHTouchDisplayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95CFA74C18386646003CDE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956DDDD118888E8F00319DBE /* grey_circle.png in Resources */,
+				95CFA76D18386647003CDE55 /* Images.xcassets in Resources */,
+				956DE7921A97D0D200933364 /* blue_circle.png in Resources */,
+				95CFA76518386647003CDE55 /* Main_iPhone.storyboard in Resources */,
+				956DE7901A97CF8D00933364 /* red_circle.png in Resources */,
+				95CFA75C18386647003CDE55 /* InfoPlist.strings in Resources */,
+				956DDDD018888E8F00319DBE /* black_circle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CFA77018386647003CDE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95CFA74A18386646003CDE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CFA75E18386647003CDE55 /* main.m in Sources */,
+				9599773A1A39E4DA00FBF700 /* UITouch+KHTouchDisplay.m in Sources */,
+				95CFA76218386647003CDE55 /* KHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CFA76E18386647003CDE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95CFA77818386647003CDE55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95CFA74D18386646003CDE55 /* KHTouchDisplay */;
+			targetProxy = 95CFA77718386647003CDE55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95CFA75A18386647003CDE55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CFA75B18386647003CDE55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95CFA76318386647003CDE55 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CFA76418386647003CDE55 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95CFA78118386647003CDE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95CFA78218386647003CDE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95CFA78418386647003CDE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KHTouchDisplay/KHTouchDisplay-Prefix.pch";
+				INFOPLIST_FILE = "KHTouchDisplay/KHTouchDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95CFA78518386647003CDE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KHTouchDisplay/KHTouchDisplay-Prefix.pch";
+				INFOPLIST_FILE = "KHTouchDisplay/KHTouchDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		95CFA78718386647003CDE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KHTouchDisplay.app/KHTouchDisplay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KHTouchDisplay/KHTouchDisplay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KHTouchDisplayTests/KHTouchDisplayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		95CFA78818386647003CDE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KHTouchDisplay.app/KHTouchDisplay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KHTouchDisplay/KHTouchDisplay-Prefix.pch";
+				INFOPLIST_FILE = "KHTouchDisplayTests/KHTouchDisplayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95CFA74918386646003CDE55 /* Build configuration list for PBXProject "KHTouchDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CFA78118386647003CDE55 /* Debug */,
+				95CFA78218386647003CDE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CFA78318386647003CDE55 /* Build configuration list for PBXNativeTarget "KHTouchDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CFA78418386647003CDE55 /* Debug */,
+				95CFA78518386647003CDE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CFA78618386647003CDE55 /* Build configuration list for PBXNativeTarget "KHTouchDisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CFA78718386647003CDE55 /* Debug */,
+				95CFA78818386647003CDE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95CFA74618386646003CDE55 /* Project object */;
+}
